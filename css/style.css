@@ -1,0 +1,56 @@
+#container{
+  display: grid;
+  grid-template-columns: 1;
+  background-color: burlywood;
+}
+#sectionHeader{
+  height: 170px;
+  background-color: aqua;
+}
+#heading{
+  display: inline-block;
+  height: 50px;
+  margin-top: 55px;
+  margin-left: 30px;
+}
+#social{
+  display: inline-block;
+  float: right;
+  margin-top: 65px;
+  margin-right: 30px;
+}
+#delicious{
+  display: block;
+  font-size: 42px;
+  font-family: 'Pacifico', cursive;
+  font-style: italic;
+  margin-left: 5px;
+  margin-bottom: 2px;
+}
+#bestFood{
+  display: block;
+  font-family: 'Abel', sans-serif;
+  margin-left: 15px;
+}
+#headingText{
+  display: inline-block;
+}
+#heading img{
+  height: 50px;
+  width: 50px;
+}
+#greyBar{
+  height: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 25px;
+
+  /* source: https://css-tricks.com/stripes-css/ */
+  background: repeating-linear-gradient(
+  45deg,
+  grey,
+  grey 10px,
+  white 20px,
+  black 10px
+);
+}
