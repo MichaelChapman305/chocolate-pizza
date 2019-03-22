@@ -1,23 +1,21 @@
 #container{
   display: grid;
   grid-template-columns: 1;
-  background-color: burlywood;
 }
 #sectionHeader{
   height: 170px;
-  background-color: aqua;
 }
 #heading{
   display: inline-block;
   height: 50px;
   margin-top: 55px;
-  margin-left: 30px;
+  margin-left: 55px;
 }
 #social{
   display: inline-block;
   float: right;
   margin-top: 65px;
-  margin-right: 30px;
+  margin-right: 55px;
 }
 #delicious{
   display: block;
@@ -39,10 +37,10 @@
   height: 50px;
   width: 50px;
 }
-#greyBar{
+.greyBar{
   height: 15px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 55px;
+  margin-right: 55px;
   margin-top: 25px;
 
   /* source: https://css-tricks.com/stripes-css/ */
@@ -60,8 +58,8 @@
 #heroHeaderHeader{
   display: inline-block;
   /* float: left; */
-  margin-top: 30px;
-  margin-left: 30px;
+  margin-top: 55px;
+  margin-left: 55px;
   /* width: 100%; */
 }
 #heroHeaderHeader h1{
@@ -78,8 +76,8 @@
 #printIcon{
   /* display: inline-block; */
   float: right;
-  margin-right: 30px;
-  margin-top: 60px;
+  margin-right: 55px;
+  margin-top: 90px;
   /* margin-bottom: 50px; */
 }
 #printIcon img{
@@ -88,7 +86,7 @@
 }
 #printIcon p{
   display: inline;
-  margin-right: 30px;
+  margin-right: 55px;
   font-size: 16px;
   font-family: 'Abel', sans-serif;
   color: #DBCEB5;
@@ -96,12 +94,31 @@
 #heroPicture{
   /* margin: auto; */
   margin-top: 35px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 55px;
+  margin-right: 55px;
 }
 #heroPicture img{
   width: 100%;
 }
 #heroParagraph{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 55px;
+  margin-right: 55px;
+}
 
+#heroParagraph p {
+  text-indent: 40px;
+  color: #7f8088;
+  line-height: 25px;
+}
+
+#sectionRecipe {
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-top: 40px;
+}
+
+#sectionRecipe img {
+  width: 100%;
 }
