@@ -54,3 +54,54 @@
   black 10px
 );
 }
+#heroPictureHeader{
+  /* display: inline-block; */
+}
+#heroHeaderHeader{
+  display: inline-block;
+  /* float: left; */
+  margin-top: 30px;
+  margin-left: 30px;
+  /* width: 100%; */
+}
+#heroHeaderHeader h1{
+  display: inline-block;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+#heroHeaderHeader p{
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
+  color: #DBCEB5;
+  /* display: inline-block; */
+}
+#printIcon{
+  /* display: inline-block; */
+  float: right;
+  margin-right: 30px;
+  margin-top: 60px;
+  /* margin-bottom: 50px; */
+}
+#printIcon img{
+  display: inline;
+
+}
+#printIcon p{
+  display: inline;
+  margin-right: 30px;
+  font-size: 16px;
+  font-family: 'Abel', sans-serif;
+  color: #DBCEB5;
+}
+#heroPicture{
+  /* margin: auto; */
+  margin-top: 35px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+#heroPicture img{
+  width: 100%;
+}
+#heroParagraph{
+
+}
