@@ -122,3 +122,43 @@
 #sectionRecipe img {
   width: 100%;
 }
+
+#vanessaContainer {
+  display: inline-block;
+  margin-left: 55px;
+  margin-top: 40px;
+}
+
+#vanessaContainer div {
+  display: inline-block;
+}
+
+#name {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+#bio {
+  margin-left: 10px;
+}
+
+#bio p {
+  font-size: 20px;
+  color: #7f8088; 
+}
+
+#sectionVanessa div img {
+  display: inline-block;
+}
+
+#sectionVanessa button {
+  float: right;
+  width: 175px;
+  height: 50px;
+  font-size: 18px;
+  font-family: 'Abel', sans-serif;
+  margin-right: 55px;
+  margin-top: 50px;
+  background-color: #bc7058;
+  color: white;
+}
