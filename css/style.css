@@ -46,10 +46,10 @@
   /* source: https://css-tricks.com/stripes-css/ */
   background: repeating-linear-gradient(
   45deg,
-  grey,
-  grey 10px,
-  white 20px,
-  black 10px
+  rgb(158, 158, 158),
+  rgb(168, 167, 167) 1px,
+  white 3px,
+  rgb(160, 160, 160) 2px
 );
 }
 #heroPictureHeader{
@@ -70,7 +70,7 @@
 #heroHeaderHeader p{
   font-family: 'Abel', sans-serif;
   font-size: 16px;
-  color: #DBCEB5;
+  color: #7f8088;
   /* display: inline-block; */
 }
 #printIcon{
@@ -89,7 +89,7 @@
   margin-right: 55px;
   font-size: 16px;
   font-family: 'Abel', sans-serif;
-  color: #DBCEB5;
+  color: #7f8088;
 }
 #heroPicture{
   /* margin: auto; */
@@ -161,4 +161,49 @@
   margin-top: 50px;
   background-color: #bc7058;
   color: white;
+}
+
+#sectionFooter div {
+  margin-right: 55px;
+  margin-left: 55px;
+  margin-top: 75px;
+  height: 20px; 
+  border-bottom: 1px solid black; 
+  text-align: center
+}
+
+#sectionFooter span {
+  font-size: 40px; 
+  padding: 0 10px;
+  background-color: white;
+}
+
+#sectionFooter article {
+  text-align: center;
+  margin-top: 45px;
+  color: #7f8088;
+  height: 75px;
+}
+
+ul {
+  list-style-type: square; 
+  color:  #7f8088;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+li {
+  
+}
+
+#listOne {
+  position: absolute;
+  top: 1630px;
+  left: 150px;
+}
+
+#listTwo {
+  position: absolute;
+  top: 1630px;
+  right: 150px;
 }
